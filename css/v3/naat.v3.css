@@ -1243,3 +1243,18 @@ html {
 .modeUnreadImportant_efb53e .name__8d1ec {
   color: var(--unread-text-channel-color);
 }
+
+.unread__75c9f:after,
+.mention__1afd3:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--unread-server-animation);
+    border-radius: 3px;
+    opacity: .9;
+    z-index: -1;
+    transition: all .15s ease-in-out
+}
