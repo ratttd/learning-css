@@ -231,8 +231,14 @@
 
     to {
         right: 0;
-        background-color: var(--main-color)
+        background: linear-gradient(to right, #af21883b 20%, #1717173b 35%, #1717173b 35%, #af218876 50%, #af218876 50%, #5d60ca3b 75%, #af21883b 90%);
     }
+}
+
+@keyframes gradient-move {
+  to {
+    background-position: 200% center;
+  }
 }
 
 @keyframes cv-message-jump {
@@ -972,7 +978,8 @@ textarea,
 
 .wrapper__7bcde.modeSelected__487d6 .link__95dc0:after {
     right: 0;
-    background: var(--main-color);
+    animation: gradient-move 10s linear infinite;
+    background: linear-gradient(to right, #af21883b 20%, #1717173b 35%, #1717173b 35%, #af218876 50%, #af218876 50%, #5d60ca3b 75%, #af21883b 90%);
     animation: cv-channel-select .3s ease-in-out
 }
 
@@ -1651,7 +1658,8 @@ button.button__4f306.disabled_dc5630>.contents_fb6220>svg {
 
 .privateChannels__93473 .channel_c21703 .interactive_a868bc.interactiveSelected_ec846b:after {
     right: 0;
-    background: var(--main-color);
+    animation: gradient-move 10s linear infinite;
+    background: linear-gradient(to right, #af21883b 20%, #1717173b 35%, #1717173b 35%, #af218876 50%, #af218876 50%, #5d60ca3b 75%, #af21883b 90%);
     animation: cv-channel-select .3s ease-in-out
 }
 
@@ -9729,7 +9737,8 @@ code {
 
 .standardSidebarView__1129a .sidebar__9e3e2 .side_b4b3f6 .item__48dda.selected__5711d:after {
     right: 0;
-    background: var(--main-color);
+    animation: gradient-move 10s linear infinite;
+    background: linear-gradient(to right, #af21883b 20%, #1717173b 35%, #1717173b 35%, #af218876 50%, #af218876 50%, #5d60ca3b 75%, #af21883b 90%));
     animation: cv-channel-select .3s ease-in-out
 }
 
@@ -10497,7 +10506,8 @@ code {
 
 .side_b4b3f6 #bd-settings-sidebar .ui-tab-bar-item.selected:after {
     right: 0;
-    background: var(--main-color);
+    animation: gradient-move 10s linear infinite;
+    background: linear-gradient(to right, #af21883b 20%, #1717173b 35%, #1717173b 35%, #af218876 50%, #af218876 50%, #5d60ca3b 75%, #af21883b 90%);
     animation: cv-channel-select .3s ease-in-out
 }
 
