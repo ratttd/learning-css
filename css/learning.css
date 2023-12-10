@@ -226,7 +226,7 @@
 @keyframes cv-channel-select {
     from {
         right: 100%;
-        background-color: rgba(0, 0, 0, 0)
+        background: rgba(0, 0, 0, 0)
     }
 
     to {
